@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.controls {
+  text-align: center;
+  margin: 20px;
+}
+
+select {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}

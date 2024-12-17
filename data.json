@@ -1,0 +1,60 @@
+{
+  "chart": {
+    "title": "Environmental footprints of dairy and plant-based milks",
+    "subtitle": "Impacts are measured per liter of milk. These are based on a meta-analysis of food system impact studies across the supply chain which includes land use change, on-farm production, processing, transport, and packaging.",
+    "citation": "Joseph Poore and Thomas Nemecek (2018).",
+    "selection": [
+      "Soy milk",
+      "Almond milk",
+      "Dairy milk",
+      "Oat milk",
+      "Rice milk"
+    ]
+  },
+  "columns": {
+    "GHG emissions of milks (kg CO2eq)": {
+      "titleShort": "Greenhouse Gas Emissions",
+      "unit": "kg CO₂eq per liter",
+      "values": {
+        "Soy milk": 0.9,
+        "Almond milk": 0.7,
+        "Dairy milk": 3.2,
+        "Oat milk": 1.2,
+        "Rice milk": 1.0
+      }
+    },
+    "Land use of milks (m2)": {
+      "titleShort": "Land Use",
+      "unit": "m² per liter",
+      "values": {
+        "Soy milk": 0.5,
+        "Almond milk": 0.6,
+        "Dairy milk": 8.9,
+        "Oat milk": 0.3,
+        "Rice milk": 0.4
+      }
+    },
+    "Water use of milks (L)": {
+      "titleShort": "Freshwater Use",
+      "unit": "liters per liter",
+      "values": {
+        "Soy milk": 28,
+        "Almond milk": 371,
+        "Dairy milk": 628,
+        "Oat milk": 48,
+        "Rice milk": 270
+      }
+    },
+    "Eutrophication from milks (g PO43-eq)": {
+      "titleShort": "Eutrophication",
+      "unit": "g PO₄eq per liter",
+      "values": {
+        "Soy milk": 0.04,
+        "Almond milk": 0.03,
+        "Dairy milk": 0.15,
+        "Oat milk": 0.02,
+        "Rice milk": 0.03
+      }
+    }
+  }
+}

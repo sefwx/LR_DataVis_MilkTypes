@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Environmental Footprints of Dairy and Plant-Based Milks</title>
+  <!-- Include D3.js -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Main JavaScript file -->
+  <script src="./main.js" defer></script>
+  <!-- CSS Styling -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Suppress favicon.ico error -->
+  <link rel="icon" href="data:;base64,=">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Environmental Footprints of Dairy and Plant-Based Milks</h1>
+  <div class="controls">
+    <label for="metric-selector">Select a metric:</label>
+    <select id="metric-selector">
+      <option value="GHG emissions of milks (kg CO2eq)">Greenhouse Gas Emissions</option>
+      <option value="Land use of milks (m2)">Land Use</option>
+      <option value="Water use of milks (L)">Water Use</option>
+      <option value="Eutrophication from milks (g PO43-eq)">Eutrophication</option>
+    </select>
+  </div>
+  <div id="container"></div>
+</body>
+
+</html>
+
